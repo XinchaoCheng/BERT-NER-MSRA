@@ -2,16 +2,27 @@
 Motivated by:https://github.com/macanv/BERT-BiLSTM-CRF-NER
 
 1.Use MSRA dataset
+
 2.chinese_L-12_H-768_A-12
+
 3.Use Softmax Dense layer rather than BiLSTM-CRF
+
 4.The accuracy info:
+
 processed 138553 tokens with 4762 phrases; found: 4758 phrases; correct: 4520.
+
 accuracy:  99.39%; precision:  95.00%; recall:  94.92%; FB1:  94.96
+
               LOC: precision:  96.29%; recall:  95.71%; FB1:  96.00  2455
+
               ORG: precision:  90.75%; recall:  92.15%; FB1:  91.44  1113
+
               PER: precision:  96.30%; recall:  95.82%; FB1:  96.06  1190
+
 5.Env info:tensorflow-gpu==1.14.0 cuda==10.0
+
 ##################################################################
+
 Tensorflow solution of NER task Using BiLSTM-CRF model with Google BERT Fine-tuning
 
 使用谷歌的BERT模型在BLSTM-CRF模型上进行预训练用于中文命名实体识别的Tensorflow代码'
